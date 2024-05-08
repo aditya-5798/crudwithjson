@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "name": "Aditya Kadam",
+      "email": "ad@gmail.com",
+      "phone": 704154854,
+      "gender": "male",
+      "department": "development"
+    },
+    {
+      "name": "xyz",
+      "email": "sdfsd@gmail.com",
+      "phone": 515754854,
+      "gender": "male",
+      "department": "Hr"
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "phone": 845442220,
+      "gender": "female",
+      "department": "sales"
+    },
+    {
+      "name": "Aditya Kadam",
+      "email": "ad@gmail.com",
+      "phone": 704154854,
+      "gender": "male",
+      "department": "development"
+    },
+    {
+      "name": "sdhcxs",
+      "email": "asdsdsd@gmail.com",
+      "phone": 7541010854,
+      "gender": "male",
+      "department": "Marketing"
+    },
+    {
+      "id": "a5e0",
+      "name": "qwqww",
+      "email": "qwqwqw@gmail.com",
+      "phone": 1540000,
+      "gender": "female",
+      "department": "4"
+    },
+    {
+      "id": "1fae",
+      "name": "qwqww",
+      "email": "qwqwqw@gmail.com",
+      "phone": 1540000,
+      "gender": "female",
+      "department": "4"
+    }
+  ]
+}

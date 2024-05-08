@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="movie-title">
+        <h1>Movie Buff</h1>
+    </div>
+    <div class="movies-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perferendis quidem eveniet accusantium nam labore
+        ea laudantium! Exercitationem assumenda, fugit hic maiores a dolorum reprehenderit nesciunt accusamus
+        accusantium? Id, et.
+    </div>
+
+    <div class="login-Form">
+        <form [formGroup]="loginForm" (ngSubmit)="loginCred()">
+            <div>
+                <label for="userName">User</label>
+                <input type="text" value="userName" formControlName="userName">
+            </div>
+            <div *ngIf="fieldMissing" class="conditionfield">*user name is missing</div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" value="password" formControlName="password">
+            </div>
+            <div *ngIf="fieldMissing" class="conditionfield">*password is missing</div>
+            <div>
+                <button type="submit">Login</button>
+                <div *ngIf="InvalidFields" class="conditionfield">Invalid Credentials</div>
+            </div>
+        </form>
+    </div>
+</div>

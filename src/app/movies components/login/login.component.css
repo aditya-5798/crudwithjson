@@ -1,0 +1,66 @@
+.container {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Aligns children to the start (left) of the container */
+    justify-content: flex-start;
+    /* Aligns children to the start (top) of the container */
+    background-image: url("https://jsis.washington.edu/global/wp-content/uploads/sites/17/2022/03/clip-of-film-reel-and-classic-camera-spinning-with-right-side-light-and-warm-background-in-4k-free-video.jpg");
+    background-size: cover;
+    height: 100vh;
+    /* Full height of the viewport */
+    padding: 20px;
+    /* Adds some space inside the container */
+}
+
+.movie-title h1 {
+    font-family: Cursive;
+    font-size: large;
+    font-weight: bold;
+    font-size: 80px;
+    color: whitesmoke;
+    font-weight: 200px;
+}
+
+.movies-desc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    width: 50vh;
+    /* Adds space below the title and description */
+}
+
+.login-Form {
+    color: white;
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-Form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-Form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.login-Form button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(37, 84%, 20%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.conditionfield {
+    color: red;
+}
